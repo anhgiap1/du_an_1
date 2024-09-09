@@ -1,0 +1,156 @@
+.giohang {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    background-color: var(--white);
+}
+
+.giohang tr th {
+    background-color: var(--greyish);
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.giohang tr td {
+    font-size: 14px;
+    border-bottom: 1px solid var(--gray);
+
+}
+
+.giohang tr td img {
+    width: 80px;
+
+}
+
+.giohang tr td .xoagiohang {
+    font-size: 14px;
+}
+
+.giohang p {
+    color: var(--orange);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.quay-ve{
+    padding: 6px;
+    background: var(--orange);
+    text-decoration: none;
+    color: var(--white);
+    border-radius: 3px;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    }
+
+    .quay-ve:hover{
+        opacity:0.6 ;
+    }
+
+    .quay-ve i{
+    margin-right:4px ; 
+    font-size: 10px; 
+    }
+
+    .mua-ngay{
+    margin-top: 32px;
+    width:123px !important;
+    height:37px !important;
+    }
+
+
+.giohang .xoagiohang:hover {
+    opacity: 0.6;
+}
+
+.giohang a:hover {
+    text-decoration: underline;
+
+}
+
+.giohang .mua-lai{
+    margin-right: 8px;
+}
+
+.giohang .danh-gia,
+.giohang .mua-lai{
+    font-size: 14px;
+    padding: 5px;
+    background-color: var(--orange);
+    border-radius: 3px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+
+.giohang .danh-gia:hover,
+.giohang .mua-lai:hover{
+    opacity: 0.6;
+}
+
+.muahang {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.muahang1 {
+    line-height: 100px;
+    margin-left: 32px;
+
+}
+
+.muahang1>a {
+    margin: 10px;
+    color: var(--black);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.muahang2 {
+    display: flex;
+    line-height: 100px;
+}
+
+.muahang2 p {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.muahang2 button {
+    color: var(--white);
+    background-color: var(--orange);
+    border: none;
+    margin-right: 10px;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+}
+
+.muahang2 button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.muahang2 .giacuoicung {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.container .tieu-de-gio-hang {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 16px 8px;
+    background-color: var(--white);
+    margin: 16px 0;
+    color: var(--orange);
+}
+
+.container .tieu-de-gio-hang i {
+    margin-right: 10px;
+}

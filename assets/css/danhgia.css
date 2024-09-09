@@ -1,0 +1,39 @@
+.danhgia{
+    background-color: var(--greyish);
+    padding: 30px 110px;
+}
+
+input{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.danhgiasp{
+    width: 600px;
+    height: 370px;
+    margin: auto;
+}
+
+.danhgiasp .tieu-de-dg{
+    font-weight: 500;
+    font-size: 22px;
+
+}
+.nut{
+    padding-left: 472px;
+}
+
+.nut .huy{
+    margin: 30px 0px;
+    padding: 5px;
+}
+
+.gui{
+    color: var(--white);
+    background-color: var(--orange);
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 13px;
+
+}

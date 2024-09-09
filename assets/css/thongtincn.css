@@ -1,0 +1,246 @@
+.thongtin>.hosonho {
+    width: 500px;
+}
+
+.thongtin>.hosonho a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+.thongtin>.hosonho>.tentuoi>.ten {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.thongtin>.hosonho>.tentuoi>.anh {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.container .thongtin {
+    display: flex;
+    justify-content:space-between; 
+    margin-top: 23px;
+}
+
+.hosocuatoi {
+    background-color: var(--white);
+    padding: 12px 16px 32px 16px;
+    width: 970px;
+}
+
+.duoi form span {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.hosocuatoi>.duoi {
+    padding-left: 50px;
+}
+
+.hosocuatoi>.duoi label {
+    text-align: right;
+    width: 150px;
+    padding: 0px 20px 0px 0px;
+    color: rgba(119, 119, 119, 1);
+    font-size: 14px;
+
+
+}
+
+.div-all {
+    display: flex;
+    padding: 16px 0px;
+}
+
+.div-all>span {
+    margin-right: 30px;
+}
+
+.div-all>a {
+    text-decoration: none;
+}
+
+
+.hosolon .duoi {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.hosolon .trai {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 50px;
+}
+
+.phai .anh {
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    z-index: 996;
+    width: 150px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.phai .anh img {
+    width: 100%;
+}
+
+.phai,
+.anh,
+.chonanh {
+    width: auto;
+    margin: 0 auto;
+}
+
+.hosocuatoi .phai {
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.chonanh {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 998;
+    opacity: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.chonanh input {
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hosocuatoi>.duoi>.tren form {
+    width: 600px;
+}
+
+.hosocuatoi .tren {
+    border-bottom: 2px solid#d9d9d9;
+    padding: 20px 0px;
+}
+
+.tren p {
+    padding-top: 5px;
+}
+
+.hosocuatoi>.tren>a {
+    font-size: 24px;
+}
+
+.hosocuatoi>.tren>p {
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.overlay-img {
+    height: 100px;
+    position: relative;
+    z-index: 997;
+    top: 7.5%;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 50%;
+}
+
+.overlay-img .fa-camera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+
+.phai:hover .overlay-img {
+    background: linear-gradient(90deg, rgba(79, 79, 82, 0.6825323879551821) 0%, rgba(118, 120, 120, 1) 100%);
+    opacity: 1;
+    visibility: visible;
+}
+
+.luu {
+    float: right;
+}
+
+.btn-setting-user{
+    display: flex;
+    justify-content: end;
+    margin: 16px 0;
+    padding-right: 12px;
+}
+
+.btn-setting-user>a{
+    padding: 8px 14px;
+    background-color: var(--orange);
+    margin-left: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+    color: var(--white);
+}
+
+.thongtin .info_user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--greyish);
+    padding: 10px 0;
+}
+
+.thongtin .info_user img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid var(--greyish);
+    object-fit: cover;
+}
+
+.info_user .name-user p{
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight:500 ;
+}
+
+.thongtin .btn-user{
+    list-style: none;
+}
+
+.thongtin .btn-user a{
+    text-decoration: none;
+    color:rgba(0,0,0,.87);
+    display: block;
+    margin: 12px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.thongtin .btn-user a:hover{
+    color: var(--orange);
+
+}
+
+.thongtin .btn-user a>i{
+    margin-right: 8px;
+    font-size: 16px;
+}

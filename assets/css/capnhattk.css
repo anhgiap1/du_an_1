@@ -1,0 +1,117 @@
+.themdm{
+    margin: 32px 0;
+}
+
+.themdm .add{
+    display:flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.hoten,
+.themdm .add label{
+    font-size: 14px;
+    width: 190px;
+}
+
+.hoten,
+.tendn,
+.mk,
+.email,
+.dc,
+.doimk,
+.gioitinh{
+    width: 600px;
+    height: 34px;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+/* .nganhhang{
+    margin-left: 45px;
+}
+
+.tendm{
+    margin-left: 32px;
+
+} */
+
+.shop-page-content .tieude{
+    font-size: 25px;
+    margin: 32px 0;
+    padding-left: 30px;
+}
+
+.shop-page-content .btn-quaylai{
+    padding: 6px 10px;
+    background-color: var(--orange);
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+}
+
+.shop-page-content .btn-quaylai i{
+    margin-right: 6px;
+}
+
+.shop-page-content form{
+    margin-left: 32px;
+}
+
+.submit{
+    text-align: end;
+    margin-right: 346px;
+}
+
+.luu{
+    padding: 8px 10px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 3px;
+    color: var(--white);
+}
+.huy{
+    border: none;
+    background-color: var(--gray);
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.doimk{
+    border: 1px solid var(--gray);
+    background-color: var(--white);
+    padding: 8px 10px;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.shop-page-main{
+    width: 100%;
+}
+
+
+
+/* đổi mật khẩu */
+
+.mkcu,
+.mkmoi,
+.nhaplaimk{
+    width: 600px;
+    height: 34px;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+/* đổi địa chỉ */
+.diachi{
+    width: 600px;
+    height: 34px;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    padding: 0 10px;
+}

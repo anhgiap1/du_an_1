@@ -1,0 +1,154 @@
+.tai{
+    height: 140px;
+    background-color: var(--greyish);
+    display: flex;
+    gap: 25px;
+}
+
+.tai>img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 25px 20px;
+}
+
+.khoan{
+    display: flex;
+    gap: 50px;
+    line-height: 30px;
+    margin-top: 35px;
+}
+
+.tk>h5{
+    font-size: 18px;
+}
+.tk>p{
+    font-size: 14px;
+}
+
+.menu>ul>li{
+    list-style: none;
+}
+
+.menu>ul{
+    display: flex;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    color: var(--black);
+    padding: 15px 20px;
+    font-size: 14px;
+}
+
+.menu>ul>li>a:hover{
+    border-bottom: 1px solid var(--orange);
+    color: var(--orange);
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.shop-page-content .operation-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operation-product .search-folder>p{
+    padding: 8px 12px;
+    border: 1px solid var(--gray);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.operation-product .search-folder>p:hover{
+    cursor: pointer;
+}
+
+.operation-product .search-folder i{
+    margin-left: 10px;
+    display: block;
+}
+
+.search-folder .folder-product{
+    position: absolute;
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    list-style: none;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.search-folder{
+    position: relative;
+}
+
+.search-folder .folder-product a{
+    text-decoration: none;
+    display: block;
+    color: var(--black);
+    font-size: 14px;
+    padding: 8px 65px 8px 12px;
+}
+
+.search-folder .folder-product a:hover{
+    opacity: 0.6;
+    color: var(--orange);
+}
+
+.shop-page-content .add-product{
+    padding: 10px 12px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 14px ;
+    text-decoration: none;
+}
+
+.shop-page-content .add-product:hover{
+    opacity: 0.6;
+}
+
+.shop-page-content .add-product i{
+    margin-right: 8px;
+}
+
+
+.shop-page-content .filter-shop-product {
+    list-style: none;
+    display: flex;
+    margin: 16px 0;
+    border-bottom: 1px solid var(--gray);
+    padding: 16px 0;
+}
+
+.shop-page-content .filter-shop-product a{
+    text-decoration: none;
+    margin-right: 32px;
+    padding: 13px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+.shop-page-content .filter-shop-product a:hover{
+    color: var(--orange);
+    border-bottom: 3px solid var(--orange);
+
+}
+
+.filter-shop-product-check{
+    border-bottom: 3px solid var(--orange);
+    color: var(--orange) !important;
+}
+
+.sidebar-item-menu-min{
+    display: none;
+}

@@ -1,0 +1,212 @@
+.themdm{
+    margin: 32px 0;
+}
+
+.themdm .add{
+    display:flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.tendm,
+.themdm .add label{
+    font-size: 14px;
+    width: 120px;
+}
+
+.tendm,
+.tk,
+.mk,
+.email,
+.dc,
+.anh{
+    width: 600px;
+    padding: 8px 12px;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+}
+
+/* .nganhhang{
+    margin-left: 45px;
+}
+
+.tendm{
+    margin-left: 32px;
+
+} */
+
+.shop-page-content .tieude{
+    font-size: 25px;
+    margin: 32px 0;
+
+}
+
+.shop-page-content .btn-quaylai{
+    padding: 6px 10px;
+    background-color: var(--orange);
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 3px;
+    color: var(--white);
+}
+
+.shop-page-content .btn-quaylai:hover{
+    opacity: 0.6;
+}
+
+.shop-page-content .btn-quaylai i{
+    margin-right: 6px;
+    font-size: 10px;
+
+}
+
+.shop-page-content form{
+    margin-left: 32px;
+}
+
+.submit{
+    text-align: end;
+    margin-right: 163px;
+}
+
+.luu{
+    padding: 8px 10px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 3px;
+    color: var(--white);
+}
+.huy{
+    border: none;
+    background-color: var(--gray);
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.themdm{
+    margin: 32px 0;
+}
+
+.themdm .add{
+    display:flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.tendm,
+.themdm .add label{
+    font-size: 14px;
+    width: 120px;
+}
+
+.nganhhang,
+.tendm{
+    width: 600px;
+    height: 34px;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+/* .nganhhang{
+    margin-left: 45px;
+}
+
+.tendm{
+    margin-left: 32px;
+
+} */
+
+.shop-page-content .tieude{
+    font-size: 25px;
+    margin: 32px 0;
+
+}
+
+
+.shop-page-content form{
+    margin-left: 32px;
+}
+
+.submit{
+    text-align: end;
+    margin-right: 163px;
+}
+
+.luu{
+    padding: 8px 10px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 3px;
+    color: var(--white);
+}
+.huy{
+    border: none;
+    background-color: var(--gray);
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.themdm{
+    margin: 32px 0;
+}
+
+.themdm .add{
+    display:flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.tennganhhang,
+.themdm .add label{
+    font-size: 14px;
+    width: 120px;
+}
+
+.nganhhang,
+.tennganhhang{
+    width: 600px;
+    height: 34px;
+    border: 1px solid var(--gray);
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+/* .nganhhang{
+    margin-left: 45px;
+}
+
+.tendm{
+    margin-left: 32px;
+
+} */
+
+.shop-page-content .tieude{
+    font-size: 25px;
+    margin: 32px 0;
+
+}
+
+.shop-page-content form{
+    margin-left: 32px;
+}
+
+.submit{
+    text-align: end;
+    margin-right: 163px;
+}
+
+.luu{
+    padding: 8px 10px;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 3px;
+    color: var(--white);
+}
+.huy{
+    border: none;
+    background-color: var(--gray);
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+

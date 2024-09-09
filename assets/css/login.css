@@ -1,0 +1,223 @@
+.dangnhap h3 {
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+.just {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 8px;
+}
+
+.just>a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 15px;
+
+}
+
+
+
+
+.dangnhap form input {
+    padding: 12px 10px;
+    margin:14px 10px;
+    width: 300px;
+    border: 1px solid var(--orange);
+    border-radius: 3px;
+
+}
+
+.dangnhap {
+    text-align: center;
+    margin: 32px 0;
+
+}
+
+.dangnhap>form {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    background-color: var(--white);
+    padding: 54px 0;
+    border-radius: 5px;
+
+}
+
+
+form>.nut-dangnhap {
+    background-color: var(--orange);
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px !important;
+    border-radius: 3px;
+
+}
+
+form>.nut-dangnhap:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+.just>a:hover {
+    opacity: 0.6;
+}
+
+.dangky h3 {
+    font-size: 30px;
+    margin-bottom: 32px;
+}
+
+
+form .dn>a {
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.dangky .form form>input {
+    padding: 12px 10px;
+    margin: 10px;
+    width: 320px;
+    border: 1px solid var(--orange);
+    border-radius: 3px;
+
+}
+
+.dangky {
+    margin: 32px 0;
+}
+
+
+.dangky>.form {
+    width: 450px;
+    /* border: 1px solid black; */
+    background-color: var(--white);
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    padding: 54px 0;
+}
+
+
+.form .hay {
+    background-color: var(--orange);
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 16px !important;
+    border-radius: 5px;
+
+}
+
+.form .hay:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+.dangky .dn>a {
+    color: var(--gray);
+    font-size: 15px;
+}
+
+
+.just>a:hover,
+.dangky .dn>a:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.all input {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.giua {
+    background-color: var(--white);
+    font-size: 16px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--gray);
+
+}
+
+.dautien h3 {
+    background-color: var(--white);
+    font-size: 20px;
+    padding: 16px;
+    margin: 8px 0;
+    font-weight: 500;
+
+}
+
+.dau {
+    width: 1200px;
+    margin: auto;
+}
+
+
+.cuoi {
+    padding: 32px 0;
+    display: flex;
+    text-align: right;
+    background-color: var(--white);
+
+
+}
+
+.div-all label {
+    width: 150px;
+    padding: 0 20px 0 0;
+    font-size: 14px;
+}
+
+
+.div-all {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--greyish);
+
+}
+
+.cuoi>form {
+    padding-left: 330px;
+}
+
+.all>button {
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.all>button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.all {
+    padding-top: 10px;
+}
+
+.div-all input {
+    width: 315px;
+    height: 34px;
+    border-radius: 3px;
+    border: 1px solid var(--gray);
+}
+
+
+::placeholder{
+    font-size: 15px;
+}

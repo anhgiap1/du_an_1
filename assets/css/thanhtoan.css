@@ -1,0 +1,318 @@
+.container .tieu-de-thanh-toan {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 16px !important;
+    background-color: var(--white);
+    margin: 16px 0;
+    color: var(--orange);
+    padding: 0 16px;
+}
+
+.so1 .so>span {
+    font-size: 16px;
+}
+
+.dautien>span {
+    font-size: 16px;
+
+}
+
+.dautien>a:hover {
+    opacity: 0.6;
+}
+
+.so1 .so span i {
+    margin-right: 8px;
+}
+
+.container .tieu-de-thanh-toan i {
+    margin-right: 10px;
+}
+
+.dau .so1 {
+    background-color: var(--white);
+    margin: 16px 0;
+    padding: 0 16px;
+}
+
+.so2 {
+    background-color: var(gray);
+}
+
+.so1>.so {
+    padding: 10px 0;
+}
+
+.dau {
+    width: 1200px;
+    margin: auto;
+}
+
+.dautien {
+    display: flex;
+    padding: 10px 0;
+}
+
+.dautien span {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.dautien h5 {
+    font-size: 15px;
+}
+
+.dautien a {
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.so2 .bang-thanh-toan {
+    width: 100%;
+}
+
+.input input {
+    padding: 10px;
+    border: none;
+    color: var(--white);
+    background-color: var(--orange);
+
+}
+
+.input {
+    text-align: right;
+    padding: 30px;
+}
+
+.so {
+    font-size: 17px;
+    color: var(--orange);
+}
+
+.bang-thanh-toan{
+    background-color: var(--white);
+}
+
+.bang-thanh-toan th{
+    background-color: var(--greyish);
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bang-thanh-toan td{
+    font-size: 14px;
+    border-bottom: 1px dashed var(--gray);
+    text-align: center;
+}
+
+.bang-thanh-toan td img{
+    width: 80px;
+}
+
+.bang-thanh-toan .tong-tien{
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tong-thanh-toan{
+    background-color: var(--white);
+    padding:16px;
+    margin: 16px 0;
+}
+
+.tong-thanh-toan .pt-thanh-toan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed var(--gray);
+}
+.pt-thanh-toan .khi-nhan-hang{
+    padding: 5px;
+    border: 1px solid var(--orange);
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.dat-hang{
+    padding: 16px 0;
+    border-bottom: 1px dashed var(--gray);
+
+}
+
+.dat-hang .so-tien{
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.so-tien p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+
+.so-tien .gia-1-sp{
+    margin-left: 68px;
+    font-size: 14px;
+}
+
+.so-tien h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--orange);
+    margin-left: 10px;
+}
+
+.nut-dat-hang{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    align-items: center;
+}
+
+.nut-dat-hang p{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+
+}
+
+.nut-dat-hang>button{ 
+    text-decoration: none;
+    padding: 10px 50px ;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 3px;     
+    border: none;
+    font-size: 14px;
+}
+
+.nut-dat-hang>button:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.tong-thanh-toan .voucher{
+    padding: 4px 0;
+    border-color: var(--orange);
+    border-radius: 3px;
+}
+
+.tong-thanh-toan .voucher>option{
+    font-size: 14px;
+}
+
+#order-detail{
+    background-color: #fff;
+    padding: 32px;
+}
+
+#order-detail>h3{   
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgba(0,0,0,.8);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#order-detail .order-detail-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.order-detail-content .infor-move .name-user{
+    font-size: 14px;
+    color: rgba(0,0,0,.8);
+    margin: 16px 0;
+}
+
+
+.order-detail-content .infor-move .move{
+    color: rgba(0,0,0,.54);
+    font-size: 12px;
+}
+
+.info-product .info-product-item{
+    padding: 0 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    border-bottom: 1px dotted rgba(0,0,0,.09);
+}
+
+.info-product-item span{
+    padding: 13px 10px;
+    color: rgba(0,0,0,.54);
+    font-size: 12px;
+}
+.info-product-item p{
+    padding: 13px 0 13px 10px;
+    width: 240px;
+    border-left: 1px dotted rgba(0,0,0,.09);
+    justify-content: flex-end;
+    word-wrap: break-word;
+    color: rgba(0,0,0,.8);
+    font-size: .875rem;
+}
+
+.info-product-item .sum_price{
+    color: #ee4d2d;
+    font-size: 24px;
+}
+
+
+.infor-detail-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+}
+
+
+.infor-detail-product-item{
+    display: flex;
+    align-items: center;
+    
+}
+
+.infor-detail-product-item img{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    border: 1px solid #e1e1e1;
+    background: #e1e1e1;
+    margin-right: 16px;
+}
+.infor-detail-product-item .name-product h3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0 0 5px;
+    font-size: 18px;
+    line-height: 22px;
+    max-height: 48px;
+    font-weight: 400;
+}   
+
+.infor-detail-product-item .name-product span{
+    color: rgba(0,0,0,.54);
+    line-height: 1.2;
+    font-size:  11px;
+    display: block;
+    margin: 8px 0; 
+}
+.infor-detail-product .prie-product h3{
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ee4d2d;
+    font-weight: 400;
+}
